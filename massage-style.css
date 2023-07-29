@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+
+body {
+    background-color: #36384D;
+}
+
+
+.successMassage {
+    background-color: white;
+    width: 475px;
+    height: 500px;
+    margin: auto;
+    margin-top: 75px;
+    padding: 50px;
+    font-family: Roboto;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: Roboto-Bold;
+}
+
+.dismissMassage {
+    background-color: #232742;
+    color: white;
+    border-radius: 5px;
+    width: 475px;
+    height: 55px;
+    border-radius: 10px;
+    font-family: Roboto;
+}
+
+#demo {
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+
+.dismissMassage:hover {
+    background-color: hsl(4, 100%, 67%);
+    box-shadow: 5px 5px 15px hsl(4, 100%, 67%);
+}

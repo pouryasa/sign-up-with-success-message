@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="/massage-style.css">
+</head>
+<body>
+    <div class="successMassage">
+        <img src="/images/icon-success.svg" alt="">
+        <h1>Thanks for <br>
+        subscribing!</h1>
+        <p>
+            <div>
+            A confirmation email has been sent to
+            <p id="demo"></p>  Please open it and  click 
+            the button inside to confirm your 
+            subscription.
+            </div>
+        </p>
+
+        <br>
+
+        <button class="dismissMassage" onclick="backHome()" >Dismiss massage</button>
+    </div>
+
+
+    <script src="/success.js"></script>
+
+    <script>
+        window.onload = document.getElementById("demo").innerHTML = (localStorage.getItem("inputValue"));
+        
+        
+    </script>
+</body>
+</html>
